@@ -1,0 +1,19 @@
+2019-01-23 22:12:08,808 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2019-01-23 22:12:08,952 144    [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Jan 23 22:12:08 CST 2019]; root of context hierarchy
+2019-01-23 22:12:09,017 209    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-01-23 22:12:09,208 400    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext-dao.xml]
+2019-01-23 22:12:09,339 531    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext-service.xml]
+2019-01-23 22:12:09,576 768    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-23 22:12:09,864 1056   [ost-startStop-1] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-01-23 22:12:10,281 1473   [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 1472 ms
+2019-01-23 22:12:10,507 1699   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-23 22:12:10,511 1703   [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Jan 23 22:12:10 CST 2019]; parent: Root WebApplicationContext
+2019-01-23 22:12:10,512 1704   [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2019-01-23 22:12:10,643 1835   [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-23 22:12:10,884 2076   [ost-startStop-1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-01-23 22:12:10,906 2098   [ost-startStop-1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2019-01-23 22:12:10,909 2101   [ost-startStop-1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2019-01-23 22:12:10,978 2170   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/account/findAll]}" onto public org.springframework.web.servlet.ModelAndView cn.itcast.controller.AccountController.findAll()
+2019-01-23 22:12:11,056 2248   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Jan 23 22:12:10 CST 2019]; parent: Root WebApplicationContext
+2019-01-23 22:12:11,138 2330   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Jan 23 22:12:10 CST 2019]; parent: Root WebApplicationContext
+2019-01-23 22:12:11,276 2468   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 769 ms
